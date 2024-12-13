@@ -1,0 +1,141 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef7f7; /* Fondo suave (rosado claro) */
+    color: #4d4d4d; /* Color de texto gris suave */
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #9b59b6; /* Morado suave para encabezados */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Introducción */
+.intro {
+    padding: 20px;
+    background-color: #f5f0f6; /* Fondo lavanda claro */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Enlaces */
+.links {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0e5f6;
+    margin-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #f39c12; /* Tono dorado */
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #c0392b; /* Rojo suave en hover */
+}
+
+/* Secciones de listas */
+.hobbies, .tasks {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies ul, .tasks ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.hobbies li, .tasks li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* Tabla */
+.schedule {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.schedule th, .schedule td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.schedule th {
+    background-color: #f39c12;
+    color: white;
+}
+
+.schedule td {
+    background-color: #f9f9f9;
+}
+
+/* Formulario */
+.contact-form {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #d5a6bd;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #f06292; /* Rosa suave al pasar el ratón */
+}
